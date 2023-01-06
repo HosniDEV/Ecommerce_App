@@ -1,0 +1,44 @@
+//class  called TextFormField(
+    //proprities
+    **KeyboardType:TextInputType.emailAdress// show how do u wanna display ur keyboard in the uer
+     **obscureText:bool,//to make the text showed or no 
+
+
+    **decoration:InputDecation(
+        **hintText:'string'//there same proprities labelText:'String',
+        prefixIcon:icon()//to use icon inside the field but in the left 
+        suffixIcon:icon//to use icon inside the field but in the right
+        border:OutlineInputBorder//to make the field a border
+    )
+    ********************************
+    MaterialButton==TextButton but the between then the last is made for text only(
+        color:colors.blue,//background color
+        child:Text(),//what will display inside the button
+       ** OnPressed:(){}//what will the button do if u press it
+    )
+    *********************************
+    CirleAvatar(
+        radius:12// size of the circle
+        child: whatever u want  text or image or icon
+    )
+    *********************************
+    ListView.builder( or separated//this u can use the separatedBuilder)(
+        **scrollDirection:axis.horizontl or vertical ///how do u wanna put them 
+            **itemBuilder:(context , index)=>/////here ur widget or function the same
+              separatorBuilder(context,index)=>SizeBox( width or height depends how do u wanna separated ur itmes)
+            **itemCount: 4 //How many times do wanna display that item
+        ) //for display the same itmes how much u want  and for scrolling them without using SingleChildScrollView
+
+),
+*********************************
+  Reusable component
+    *********************************
+Divider()/// to put a line verticallykjjjulove or horizontlly
+spacer() class to make space 
+Badge() u need firstly add version in pubspec and then call the method
+*********************************
+  carousel class 
+    *********************************
+*********************************
+  smooth  class 
+    *********************************
